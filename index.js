@@ -297,7 +297,6 @@ function addArtist(array){
     })
     return array;
   }
-
   
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
@@ -316,8 +315,6 @@ function lotsOfArt(array){
   }
   return oneHundredPaintings;
 }
-
-
 
 
 // 🎨🎨 STRETCH 🎨🎨//
