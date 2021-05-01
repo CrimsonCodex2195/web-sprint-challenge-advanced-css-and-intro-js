@@ -266,7 +266,7 @@ function get20s(array) {
 
 function removeArtist(array, index){
    array.splice(index, 1);
-   return array.length;``
+   return array.length;
 }
    
 
@@ -286,8 +286,16 @@ Use addArtist to do the following:
 
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
-function addArtist(/*Your Code Here*/){
-    /*Your Code Here*/
+function addArtist(array){
+    array.push({
+      id: 20,
+      name: 'Shariq', 
+      years: '2003 - 2021',
+      genre: 'Web Design', 
+      nationality: 'Guyanese',
+      bio: 'Im currently a Junior in High School trying to begin a career in Wev Development.'
+    })
+    return array;
   }
 
   
